@@ -1,0 +1,15 @@
+prefix=/Users/paulmcguane/ircd
+exec_prefix=${prefix}
+datarootdir=${prefix}/share
+data_dir=${datarootdir}/libmowgli-2
+
+version=2.0.0
+include_dir=${prefix}/include/libmowgli-2
+lib_dir=${exec_prefix}/lib
+
+Name: libmowgli-2
+Description: A library which contains many utility functions and classes.
+Version: 2.0.0
+Libs: -L${lib_dir} -lmowgli-2
+Cflags: -I${include_dir}
+
